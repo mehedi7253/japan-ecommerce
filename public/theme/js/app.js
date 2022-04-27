@@ -2227,6 +2227,80 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -88818,7 +88892,300 @@ var render = function() {
                             1
                           ),
                           _vm._v(" "),
-                          _vm._m(4),
+                          _c(
+                            "li",
+                            {
+                              staticClass:
+                                "nav-item dropdown dropdown-hover position-static"
+                            },
+                            [
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "nav-link dropdown-toggle",
+                                  attrs: {
+                                    href: "#",
+                                    id: "navbarDropdown",
+                                    role: "button",
+                                    "data-mdb-toggle": "dropdown",
+                                    "aria-expanded": "false"
+                                  }
+                                },
+                                [_vm._v("\n              Shop\n            ")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "div",
+                                {
+                                  staticClass: "dropdown-menu w-100 mt-0",
+                                  staticStyle: {
+                                    "border-top-left-radius": "0",
+                                    "border-top-right-radius": "0"
+                                  },
+                                  attrs: { "aria-labelledby": "navbarDropdown" }
+                                },
+                                [
+                                  _c("div", { staticClass: "sub-menu" }, [
+                                    _c("div", {}, [
+                                      _c("div", { staticClass: "row my-4" }, [
+                                        _c(
+                                          "div",
+                                          {
+                                            staticClass:
+                                              "col-md-6 col-lg-3 mb-3 mb-lg-0"
+                                          },
+                                          [
+                                            _c(
+                                              "div",
+                                              {
+                                                staticClass:
+                                                  "list-group list-group-flush"
+                                              },
+                                              [
+                                                _c("h5", [_vm._v("Cooking")]),
+                                                _vm._v(" "),
+                                                _c(
+                                                  "a",
+                                                  [
+                                                    _c(
+                                                      "router-link",
+                                                      {
+                                                        attrs: {
+                                                          to:
+                                                            "/category/basmati-rice"
+                                                        }
+                                                      },
+                                                      [
+                                                        _vm._v(
+                                                          "\n                          Basmoti Rice\n                        "
+                                                        )
+                                                      ]
+                                                    )
+                                                  ],
+                                                  1
+                                                ),
+                                                _vm._v(" "),
+                                                _c(
+                                                  "a",
+                                                  [
+                                                    _c(
+                                                      "router-link",
+                                                      {
+                                                        attrs: {
+                                                          to:
+                                                            "/category/flour-atta"
+                                                        }
+                                                      },
+                                                      [
+                                                        _vm._v(
+                                                          "\n                         Flour (Atta)\n                        "
+                                                        )
+                                                      ]
+                                                    )
+                                                  ],
+                                                  1
+                                                )
+                                              ]
+                                            )
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          {
+                                            staticClass:
+                                              "col-md-6 col-lg-3 mb-3 mb-lg-0"
+                                          },
+                                          [
+                                            _c(
+                                              "div",
+                                              {
+                                                staticClass:
+                                                  "list-group list-group-flush"
+                                              },
+                                              [
+                                                _c("h5", [
+                                                  _vm._v("Meat & Fish")
+                                                ]),
+                                                _vm._v(" "),
+                                                _c(
+                                                  "a",
+                                                  [
+                                                    _c(
+                                                      "router-link",
+                                                      {
+                                                        attrs: {
+                                                          to: "/category/Beef"
+                                                        }
+                                                      },
+                                                      [
+                                                        _vm._v(
+                                                          "\n                         Meat\n                        "
+                                                        )
+                                                      ]
+                                                    )
+                                                  ],
+                                                  1
+                                                ),
+                                                _vm._v(" "),
+                                                _c(
+                                                  "a",
+                                                  [
+                                                    _c(
+                                                      "router-link",
+                                                      {
+                                                        attrs: {
+                                                          to:
+                                                            "/category/Chicken"
+                                                        }
+                                                      },
+                                                      [
+                                                        _vm._v(
+                                                          "\n                         Chicken\n                        "
+                                                        )
+                                                      ]
+                                                    )
+                                                  ],
+                                                  1
+                                                )
+                                              ]
+                                            )
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          {
+                                            staticClass:
+                                              "col-md-6 col-lg-3 mb-3 mb-lg-0"
+                                          },
+                                          [
+                                            _c(
+                                              "div",
+                                              {
+                                                staticClass:
+                                                  "list-group list-group-flush"
+                                              },
+                                              [
+                                                _c("h5", [
+                                                  _vm._v("Beauty & Helth")
+                                                ]),
+                                                _vm._v(" "),
+                                                _c(
+                                                  "a",
+                                                  [
+                                                    _c(
+                                                      "router-link",
+                                                      {
+                                                        attrs: {
+                                                          to:
+                                                            "/category/bath-soap"
+                                                        }
+                                                      },
+                                                      [
+                                                        _vm._v(
+                                                          "\n                           Bath & Soap\n                        "
+                                                        )
+                                                      ]
+                                                    )
+                                                  ],
+                                                  1
+                                                ),
+                                                _vm._v(" "),
+                                                _c(
+                                                  "a",
+                                                  [
+                                                    _c(
+                                                      "router-link",
+                                                      {
+                                                        attrs: {
+                                                          to:
+                                                            "/category/mens-care"
+                                                        }
+                                                      },
+                                                      [
+                                                        _vm._v(
+                                                          "\n                         Mens Care\n                        "
+                                                        )
+                                                      ]
+                                                    )
+                                                  ],
+                                                  1
+                                                )
+                                              ]
+                                            )
+                                          ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          {
+                                            staticClass:
+                                              "col-md-6 col-lg-3 mb-3 mb-lg-0"
+                                          },
+                                          [
+                                            _c(
+                                              "div",
+                                              {
+                                                staticClass:
+                                                  "list-group list-group-flush"
+                                              },
+                                              [
+                                                _c("h5", [
+                                                  _vm._v("Fruits & Vegetables")
+                                                ]),
+                                                _vm._v(" "),
+                                                _c(
+                                                  "a",
+                                                  [
+                                                    _c(
+                                                      "router-link",
+                                                      {
+                                                        attrs: {
+                                                          to: "/category/fruits"
+                                                        }
+                                                      },
+                                                      [
+                                                        _vm._v(
+                                                          "\n                          Fruits\n                        "
+                                                        )
+                                                      ]
+                                                    )
+                                                  ],
+                                                  1
+                                                ),
+                                                _vm._v(" "),
+                                                _c(
+                                                  "a",
+                                                  [
+                                                    _c(
+                                                      "router-link",
+                                                      {
+                                                        attrs: {
+                                                          to:
+                                                            "/category/vegetables"
+                                                        }
+                                                      },
+                                                      [
+                                                        _vm._v(
+                                                          "\n                         Vegetables\n                        "
+                                                        )
+                                                      ]
+                                                    )
+                                                  ],
+                                                  1
+                                                )
+                                              ]
+                                            )
+                                          ]
+                                        )
+                                      ])
+                                    ])
+                                  ])
+                                ]
+                              )
+                            ]
+                          ),
                           _vm._v(" "),
                           _c(
                             "li",
@@ -88979,48 +89346,6 @@ var staticRenderFns = [
       },
       [_c("span", { staticClass: "navbar-toggler-icon" })]
     )
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("li", { staticClass: "nav-item dropdown" }, [
-      _c(
-        "a",
-        {
-          staticClass: "nav-link dropdown-toggle",
-          attrs: {
-            href: "#",
-            id: "navbarDropdownMenuLink",
-            "data-toggle": "dropdown",
-            "aria-haspopup": "true",
-            "aria-expanded": "false"
-          }
-        },
-        [_vm._v("\n              SHOP\n            ")]
-      ),
-      _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass: "dropdown-menu",
-          attrs: { "aria-labelledby": "navbarDropdownMenuLink" }
-        },
-        [
-          _c("a", { staticClass: "dropdown-item", attrs: { href: "#" } }, [
-            _vm._v("Action")
-          ]),
-          _vm._v(" "),
-          _c("a", { staticClass: "dropdown-item", attrs: { href: "#" } }, [
-            _vm._v("Another action")
-          ]),
-          _vm._v(" "),
-          _c("a", { staticClass: "dropdown-item", attrs: { href: "#" } }, [
-            _vm._v("Something else here")
-          ])
-        ]
-      )
-    ])
   }
 ]
 render._withStripped = true

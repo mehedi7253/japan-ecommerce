@@ -97,20 +97,94 @@
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
                 <router-link
-                class="nav-link"
-                v-on:click.native="triggerNav"
-                :to="{ name: 'home' }"
-                exact
-              > Home </router-link>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                SHOP
+                  class="nav-link"
+                  v-on:click.native="triggerNav"
+                  :to="{ name: 'home' }"
+                  exact
+                > Home </router-link>
+              </li>
+            <li class="nav-item dropdown dropdown-hover position-static">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                data-mdb-toggle="dropdown" aria-expanded="false">
+                Shop
               </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+              <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown" style="border-top-left-radius: 0;
+              border-top-right-radius: 0;  ">
+                <div class="sub-menu">
+                  <div class="">
+                    <div class="row my-4">
+                      
+                      <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                        <div class="list-group list-group-flush">
+                          <h5>Cooking</h5>
+                         <a>
+                          <router-link :to="'/category/basmati-rice'" >
+                            Basmoti Rice
+                          </router-link>
+                         </a>
+                         <a>
+                          <router-link :to="'/category/flour-atta'" >
+                           Flour (Atta)
+                          </router-link>
+                         </a>
+                         
+                        </div>
+                      </div>
+                      
+
+                      <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                        <div class="list-group list-group-flush">
+                          <h5>Meat & Fish</h5>
+                         <a>
+                          <router-link :to="'/category/Beef'" >
+                           Meat
+                          </router-link>
+                         </a>
+                         <a>
+                          <router-link :to="'/category/Chicken'" >
+                           Chicken
+                          </router-link>
+                         </a>
+                         
+                        </div>
+                      </div>
+
+                      <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                        <div class="list-group list-group-flush">
+                          <h5>Beauty & Helth</h5>
+                         <a>
+                          <router-link :to="'/category/bath-soap'" >
+                             Bath & Soap
+                          </router-link>
+                         </a>
+                         <a>
+                          <router-link :to="'/category/mens-care'" >
+                           Mens Care
+                          </router-link>
+                         </a>
+                        </div>
+                      </div>
+
+                      <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                        <div class="list-group list-group-flush">
+                          <h5>Fruits & Vegetables</h5>
+                         <a>
+                          <router-link :to="'/category/fruits'" >
+                            Fruits
+                          </router-link>
+                         </a>
+                         <a>
+                          <router-link :to="'/category/vegetables'" >
+                           Vegetables
+                          </router-link>
+                         </a>
+                        </div>
+                      </div>
+
+                  
+                    </div>
+                </div>
+                </div>
               </div>
             </li>
             <li class="nav-item">
